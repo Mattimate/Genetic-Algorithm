@@ -3,11 +3,6 @@ package algorithms;
 import function3.Chromosome;
 import java.util.Random;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 /**
  *
  * @author Matthew
@@ -79,7 +74,6 @@ public class Elitism {
             bestChromosome = chromosomeArr[lowestFitness];
         }
         chromosomeArr[highestFitness] = bestChromosome;
-        System.out.println(bestChromosome.fitness);
         return chromosomeArr;
     }
 
